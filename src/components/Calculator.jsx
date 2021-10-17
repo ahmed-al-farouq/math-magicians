@@ -1,4 +1,5 @@
 import React from 'react';
+import calculate from '../logic/calculate.js';
 
 export default function Calculator() {
   return (
