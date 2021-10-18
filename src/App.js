@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Calculator from './components/Calculator';
-import calculate from './logic/calculate';
 import './App.css';
 
 class App extends Component {
@@ -15,9 +14,7 @@ class App extends Component {
     };
   }
 
-  updateData = (e) => {
-    const { data } = this.state;
-    const newData = calculate(data, e.target.textContent);
+  updateState = (newData) => {
     this.setState({
       data: newData,
     });
@@ -33,7 +30,11 @@ class App extends Component {
     }
 
     return (
-      <Calculator updateData={this.updateData} value={value} />
+      <Calculator
+        data={data}
+        value={value}
+        updateState={this.updateState}
+      />
     );
   }
 }
