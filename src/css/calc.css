@@ -11,7 +11,6 @@ body {
 
 .calculator-container {
   padding: 5px;
-  margin: 30px auto 0;
   min-width: 405px;
   max-width: 405px;
   display: grid;
