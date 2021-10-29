@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Match Home snapshoot 1`] = `
+Array [
+  <h2
+    className="sc-bdvvtL jdmmug"
+  >
+    Welcome to our page!
+  </h2>,
+  <p
+    className="sc-gsDKAQ gzoIuk"
+  >
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium quisquam blanditiis quos ullam perferendis incidunt qui pariatur aliquam numquam eum voluptatum distinctio molestiae quis tenetur illo ipsum, nam unde ipsam? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est quos excepturi obcaecati facere porro minus nesciunt, ipsam unde temporibus sint sunt blanditiis nihil, qui omnis molestiae ab debitis quasi nemo.
+  </p>,
+  <p
+    className="sc-gsDKAQ gzoIuk"
+  >
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe itaque modi minima eum rem incidunt, odio placeat soluta cum minus nostrum dicta similique quaerat vitae at nisi perspiciatis. Fugiat, quaerat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur accusamus numquam odit deleniti ab totam fugit placeat cum unde quis repellendus corrupti vel, impedit, ex, eos magni beatae nobis accusantium.
+  </p>,
+]
+`;
+
+exports[`Match home snapshoot 1`] = `
+Array [
+  <h2
+    className="sc-bdvvtL jdmmug"
+  >
+    Welcome to our page!
+  </h2>,
+  <p
+    className="sc-gsDKAQ gzoIuk"
+  >
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium quisquam blanditiis quos ullam perferendis incidunt qui pariatur aliquam numquam eum voluptatum distinctio molestiae quis tenetur illo ipsum, nam unde ipsam? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est quos excepturi obcaecati facere porro minus nesciunt, ipsam unde temporibus sint sunt blanditiis nihil, qui omnis molestiae ab debitis quasi nemo.
+  </p>,
+  <p
+    className="sc-gsDKAQ gzoIuk"
+  >
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe itaque modi minima eum rem incidunt, odio placeat soluta cum minus nostrum dicta similique quaerat vitae at nisi perspiciatis. Fugiat, quaerat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur accusamus numquam odit deleniti ab totam fugit placeat cum unde quis repellendus corrupti vel, impedit, ex, eos magni beatae nobis accusantium.
+  </p>,
+]
+`;
