@@ -1,5 +1,12 @@
 import React, { useState } from 'react';
+import {
+  BrowserRouter,
+  Route,
+} from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
 import Calculator from './components/Calculator';
+import Quote from './components/Quote';
 import './App.css';
 
 export default function App() {
@@ -21,10 +28,21 @@ export default function App() {
   }
 
   return (
-    <Calculator
-      data={data}
-      value={value}
-      updateState={updateState}
-    />
+    <BrowserRouter>
+      <Navbar />
+      <Route exact path="/">
+        <Home />
+      </Route>
+      <Route path="/calculator">
+        <Calculator
+          data={data}
+          value={value}
+          updateState={updateState}
+        />
+      </Route>
+      <Route path="/quote">
+        <Quote />
+      </Route>
+    </BrowserRouter>
   );
 }
