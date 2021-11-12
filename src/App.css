@@ -1,0 +1,18 @@
+@import url('./css/calc.css');
+
+/* Global Rules */
+.d-none {
+  display: none !important;
+}
+
+/* Navbr */
+nav .menu-icons {
+  font-size: 23px;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  nav .menu-icons {
+    display: block;
+  }
+}

@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test navbar 1`] = `
+<nav
+  className="sc-bdvvtL ldEeHw"
+>
+  <h1
+    className="sc-gsDKAQ jQtelQ logo"
+  >
+    Math Magicians
+  </h1>
+  <div
+    className="open-icon"
+  >
+    <svg
+      className="menu-icons"
+      fill="currentColor"
+      height="1em"
+      onClick={[Function]}
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 512 512"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M32 96v64h448V96H32zm0 128v64h448v-64H32zm0 128v64h448v-64H32z"
+      />
+    </svg>
+  </div>
+  <div
+    className="close-icon d-none"
+  >
+    <svg
+      className="menu-icons"
+      fill="currentColor"
+      height="1em"
+      onClick={[Function]}
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      viewBox="0 0 1024 1024"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 0 0 203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z"
+      />
+    </svg>
+  </div>
+  <ul
+    className="sc-dkPtRN fOIkwt"
+  >
+    <li
+      className="sc-hKwDye gJajPT"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-eCImPb dqJqNk"
+        >
+          Home
+        </a>
+      </a>
+    </li>
+    <li
+      className="sc-hKwDye gJajPT"
+    >
+      <a
+        href="/calculator"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-eCImPb dqJqNk"
+        >
+          Calculator
+        </a>
+      </a>
+    </li>
+    <li
+      className="sc-hKwDye gJajPT"
+    >
+      <a
+        href="/quote"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-eCImPb dqJqNk"
+        >
+          Quote
+        </a>
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
