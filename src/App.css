@@ -11,6 +11,15 @@ nav .menu-icons {
   display: none;
 }
 
+nav ul li a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+nav ul li a.active {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 768px) {
   nav .menu-icons {
     display: block;
