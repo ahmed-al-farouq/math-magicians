@@ -10,6 +10,8 @@
 - ReactJS
 - Linters
 
+# Live Demo
+[Demo](https://math-magicians.pages.dev/)
 ### Prerequisites
   #### Knowledge of these technologies
     * HTML, CSS
@@ -27,7 +29,7 @@
     * npm run build
 
 
-## Authors
+## Author
 
 :bearded_person: **Ahmed Al-Farouq**
   - Github: [@Ahmed-Alfarouq](https://github.com/ahmed-al-farouq)
@@ -44,12 +46,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
